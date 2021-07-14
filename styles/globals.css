@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-top-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-top-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.login-top-row-h1 {
+  font-weight: bold;
+}
+.login-top__icon__image {
+  width: 5rem;
+  height: 5rem;
+}
+
+.login-send-btn.btn.btn-primary {
+  border-radius: 100000px;
+  width: 50vw;
+  max-width: 21rem;
+}
+#Email.form-control {
+  width: 50vw;
+  max-width: 21rem;
+}
+#Password.form-control {
+  width: 50vw;
+  max-width: 21rem;
+}
+
+/*signup */
+#Name.form-control {
+  width: 50vw;
+  max-width: 50rem;
+}
+#Phone.form-control {
+  width: 50vw;
+  max-width: 50rem;
+}
+
+/*homepage*/
+.smallicon {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.1rem;
+}
+
+.smallesticon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.homepage-icon-col-accounts {
+  margin-top: 3rem;
+}
